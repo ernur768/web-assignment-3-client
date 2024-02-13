@@ -4,6 +4,7 @@ export const API_URL = 'https://light-erin-tunic.cyclic.app/';
 
 const $api = axios.create({
     withCredentials: true,
+    credentials: 'include',
     baseURL: API_URL,
 })
 
