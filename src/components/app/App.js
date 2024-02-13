@@ -6,7 +6,7 @@ import MainPage from "../pages/Main-page";
 function App() {
 
     return (
-        <BrowserRouter basename={'/web-assignment-3-client'}>
+        <BrowserRouter>
             <div className="App">
                 <Routes>
                     <Route path={'/login'} element={<LoginPage />} />
